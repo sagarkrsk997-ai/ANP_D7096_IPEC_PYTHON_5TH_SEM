@@ -35,3 +35,20 @@ cursorobj.close()
 #--------------------
 #To close the connection object
 dataconnection.close()
+
+# ----------------------
+
+'''
+mysql> select *
+    -> from Student;
++--------+---------+----------+-----+
+| StdId  | StdName | Standard | age |
++--------+---------+----------+-----+
+| std101 | Anil    | 11       |  16 |
+| std102 | Amit    | 11th     |  16 |
+| std103 | Rahul   | 9th      |  14 |
+| std104 | Mohit   | 12th     |  17 |
+| std105 | Rohit   | 8th      |  13 |
++--------+---------+----------+-----+
+5 rows in set (0.01 sec)
+'''
